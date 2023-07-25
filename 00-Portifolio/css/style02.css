@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Moirai+One&family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-color: #1e1842 !important;
+    color: white !important;
+}
+
+
+.nav-item a {
+    color: red;
+    font-weight: 700;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+section:nth-child(odd) {
+    background-color: #19172831;
+}
+
+.nome {
+    font-family: 'Great Vibes', cursive;
+    color: #00efcd;
+}
+
+.font {
+    font-weight: 700;
+}
+
+.letra {
+    color: transparent;
+    -webkit-text-stroke: 1px #fff3;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.icon img {
+    width: 5rem;
+    margin-right: 6%;
+    margin-bottom: 5%;
+
+}
+

@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style02.css">
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary mb-5 bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#inicio">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end p-4 " id="navbarNav">
+                <ul class="navbar-nav me-5 gap-4 nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">SOBRE</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#curso">EXPERIÊNCIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portefolio">PORTEFÓLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">CONTATO</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="inicio">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center text-lg-start">
+                    <p class="display-4 font">Olá!!</p>
+                    <p class="display-6 font">Meu nome é: <span class="display-5 nome"> Jailson S. França</span></p>
+                    <p class="display-6 font">Sou um: <span class="typing">web designer</span> </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="img/programador-02.gif" class="img-fluid" alt="">
+                </div>
+
+            </div>
+
+            <div class="row  mt-5 min-vw-50">
+                <div class="col d-flex justify-content-evenly flex-wrap">
+                    <i class="bi bi-linkedin" style="font-size: 3rem; color: #00efcd;"></i>
+                    <i class="bi bi-github" style="font-size: 3rem; color: #00efcd;"></i>
+                    <i class="bi bi-whatsapp" style="font-size: 3rem; color: #00efcd;"></i>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container-fluid mt-5">
+            <div class="d-flex justify-content-center">
+                <p class="display-1 letra">SOBRE ME</p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/eu.jpeg" alt="eu" class="img-fluid img-thumbnail float-start me-5 mb-3">
+
+                        <h1 style="font-family: 'Great Vibes', cursive;">Jailson Silva de França</h1>
+                        <h6 style="color: #00efcd;">Desenvolvedor Web</h6>
+                        <p class="lead">
+                            Estou sempre em busca de novas oportunidades para aplicar meus conhecimentos e contribuir
+                            para
+                            projetos inovadores. Sinto-me à vontade para explorar diferentes tecnologias e linguagens de
+                            programação, buscando soluções eficientes e elegantes para os problemas que encontro.
+                        </p>
+
+                        <p>
+
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                <i class="bi bi-plus-lg"></i>
+                                Sobre-me
+                            </button>
+
+                            <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                            <img src="img/aceno.gif" alt="ola" class="aceno">
+                                            Jailson Silva de França
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" style="color: black;">
+
+
+                                        <p class="lead">
+                                            Meu nome é Jailson S. de França, e sou natural de João Pessoa, capital do
+                                            estado
+                                            da Paraíba.
+                                            Tenho me dedicado há alguns anos à área de programação, iniciando como
+                                            estagiário, o que me
+                                            proporcionou a oportunidade de desenvolver minhas habilidades e adquirir
+                                            conhecimentos
+                                            adicionais.
+                                        </p>
+                                        <p class="lead">
+                                            Iniciei minha jornada na programação durante o curso de Ciência da
+                                            Computação no
+                                            ano de 2012 na Universidade
+                                            Federal(UFPB), localizada em outra cidade do meu estado. No entanto, devido
+                                            a
+                                            questões financeiras,
+                                            precisei interromper meus estudos após completar o quinto período. Durante
+                                            esse
+                                            período, pude
+                                            adquirir uma sólida base de conhecimento e desenvolver habilidades
+                                            essenciais.
+                                        </p>
+                                        <p class="lead">
+                                            Posteriormente, no ano de 2018 realizei o Exame Nacional do Ensino Médio
+                                            (ENEM)
+                                            e consegui ingressar no curso
+                                            de Sistemas para Internet em minha cidade natal, no Instituto Federal(IFPB),
+                                            onde concluí minha
+                                            graduação. Essa oportunidade permitiu que eu aprimorasse minhas habilidades
+                                            técnicas e
+                                            expandisse meu conhecimento na área de programação.
+                                        </p>
+                                        <p class="lead">
+                                            Ao longo dessa jornada, tive a oportunidade de enfrentar diversos desafios e
+                                            adquirir valiosa
+                                            experiência prática em projetos de programação. Essas experiências têm
+                                            fortalecido minha paixão
+                                            pela área e me motivado a buscar constantemente o aprimoramento e o
+                                            aprendizado
+                                            contínuo.
+                                        </p>
+
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        </p>
+
+
+                        <div class="row">
+                            <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                                <p>
+                                    <i class="bi bi-globe-americas" style="font-size: 2rem; color: #00efcd;"></i>
+                                    <span class="sobre-endereco"> Pais</span>: Brasil
+                                </p>
+                                <p>
+                                    <i class="bi bi-compass" style="font-size: 2rem; color: #00efcd;"></i>
+                                    <span class="sobre-endereco">Estado</span>: Paraíba
+                                </p>
+                                <p>
+                                    <i class="bi bi-geo-alt" style="font-size: 2rem; color: #00efcd;"></i>
+                                    <span class="sobre-endereco">Cidade</span>: João Pessoa
+                                </p>
+
+                            </div>
+                            <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                                <p>
+                                    <i class="bi bi-person-vcard" style="font-size: 2rem; color: #00efcd;"></i>
+                                    <span class="sobre-endereco">Freelance</span>: Disponivel
+                                </p>
+                                <p>
+                                    <i class="bi bi-telephone-inbound" style="font-size: 2rem; color: #00efcd;"></i>
+                                    <span class="sobre-endereco">Telefone</span>: (83)99942-3019
+                                </p>
+                                <p>
+                                    <i class="bi bi-person-heart" style="font-size: 2rem; color: #00efcd;"></i>
+                                    <span class="sobre-endereco">Estado Civil</span>: Solteiro
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="curso">
+        <div class="container-fluid mt-5">
+            <div class="d-flex justify-content-center">
+                <p class="display-1 letra">EDUCAÇÃO & EXPERIÊNCIAS</p>
+            </div>
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="card mb-3">
+                            <img src="img/dev-03.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> <span> <i class="bi bi-mortarboard-fill"></i> </span> Instituto
+                                    Federal Da Paraíba (IFPB)</h5>
+                                <h6 class="card-text">
+                                    Sistema Para Internet
+                                </h6>
+                                <p class="card-text"><small class="text-body-secondary"> <span><i
+                                                class="bi bi-calendar-week"></i></span> 2018 - 2022</small></p>
+                                <p class="card-text">
+                                    O IFPB (Instituto Federal de Educação, Ciência e Tecnologia da Paraíba) é uma
+                                    instituição de ensino superior e técnico público federal, com sede na cidade de João
+                                    Pessoa, Paraíba, Brasil. Foi criado em 2008, a partir da fusão de duas instituições
+                                    de ensino técnico federal que já existiam no estado.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="card mb-3">
+                            <img src="img/dev.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><span> <i class="bi bi-person-vcard"></i></span> DOCK TECNOLOGIA
+                                    S.A</h5>
+                                <h6 class="card-text">Q/A Analista De Qualidade De Software.</h6>
+                                <p class="card-text"><small class="text-body-secondary"><span><i
+                                                class="bi bi-calendar-week"></i></span> 2021 - 2022</small></p>
+                                <p class="card-text">
+                                    Trabalhei como Analista de Garantia da Qualidade (Q/A) na empresa Dock tec., onde
+                                    expandi meus horizontes profissionais. Nessa função, adquiri habilidades em testes
+                                    de API, realizando análises minuciosas e garantindo a qualidade e eficiência das
+                                    aplicações desenvolvidas.
+                                </p>
+                                <h6 class="card-title">
+                                    Principais competências desenvolvidas: <span class="text-body-secondary"> Cucumber ·
+                                        TestNG · Elaboração de testes · Automação de testes · Spring Boot · SQL · Git ·
+                                        Java · Jira · Microsoft Azure</span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6"></div>
+                    <div class="col-12 col-lg-6">
+                        <div class="card mb-3">
+                            <img src="img/dev.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> <span> <i class="bi bi-person-vcard"></i> </span>JUSTIÇA FEDERAL
+                                    DE PRIMEIRO GRAU NA PARAÍBA </h5>
+                                <h6 class="card-text">Desenvolvedor front-end e back-end</h6>
+                                <p class="card-text"><small class="text-body-secondary"><span><i
+                                                class="bi bi-calendar-week"></i> </span> 2019 - 2021</small></p>
+                                <p class="card-text">
+                                    Como estagiário na Justiça Federal da Paraíba, tive a oportunidade gratificante de
+                                    atuar como desenvolvedor front-end e back-end, contribuindo para a melhoria dos
+                                    serviços oferecidos pela instituição. Essa experiência proporcionou conhecimentos
+                                    valiosos sobre a aplicação prática dos princípios de programação e o uso de
+                                    tecnologias relevantes.
+                                </p>
+                                <h6 class="card-title">
+                                    Principais competências desenvolvidas: <span class="text-body-secondary">HTNL · CSS
+                                        · JavaScript · Node.js · Vue.js · SQL · Git · Trello</span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="skill">
+        <div class="container-fluid mt-5">
+            <div class="d-flex justify-content-center">
+                <p class="display-1 letra">MINHAS SKILLS</p>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col align-self-center">
+                        <p class="lead">
+                            Com base nas minhas experiências de trabalho, venho aprimorando várias habilidades
+                            em desenvolvimento de software ao longo dos anos. E aqui estão algumas das competências
+                            específicas que desenvolvi.
+                        </p>
+                    </div>
+                    <div class="col icon py-5 ">
+                        <img src="img/skill/icon-1.png" alt="">
+                        <img src="img/skill/icon-2.png" alt="">
+                        <img src="img/skill/icon-3.png" alt="">
+                        <img src="img/skill/icon-4.png" alt="">
+                        <img src="img/skill/icon-5.png" alt="">
+                        <img src="img/skill/icon-6.png" alt="">
+                        <img src="img/skill/icon-7.png" alt="">
+                        <img src="img/skill/icon-8.webp" alt="">
+                        <img src="img/skill/icon-9.png" alt="">
+                        <img src="img/skill/icon-10.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="portefolio">
+        <div class="container-fluid mt-5">
+            <div class="d-flex justify-content-center">
+                <p class="display-1 letra">MEU PORTEFOLIO</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container-fluid mt-5">
+            <div class="d-flex justify-content-center">
+                <p class="display-1 letra">CONTATE ME</p>
+            </div>
+
+            <div class="container d-flex justify-content-center">
+                <div class="card mb-3 w-75 bg-transparent border" style="color: white;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/send.jpg" class="img-fluid rounded-start h-100" alt="send email">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="inputEmail4" placeholder="nome">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Sobre nome</label>
+                                        <input type="text" class="form-control" id="inputPassword4"
+                                            placeholder="sobre nome">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress" class="form-label">E-mail</label>
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="comment">Mensagem</label>
+                                        <textarea class="form-control" rows="2" id="comment"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
